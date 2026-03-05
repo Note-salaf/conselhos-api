@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conselhos</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <div class="card">
+                <h1>
+                    <svg width="30" height="30" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                        <!-- Glow -->
+                        <circle cx="70" cy="60" r="45" fill="url(#glow)" opacity="0.25" />
+
+                        <!-- Shine Rays -->
+                        <g stroke="#22C55E" stroke-width="4" stroke-linecap="round" opacity="0.8">
+                            <line x1="70" y1="8" x2="70" y2="22" />
+                            <line x1="110" y1="25" x2="100" y2="35" />
+                            <line x1="125" y1="60" x2="110" y2="60" />
+                            <line x1="110" y1="95" x2="100" y2="85" />
+                            <line x1="70" y1="112" x2="70" y2="98" />
+                            <line x1="30" y1="95" x2="40" y2="85" />
+                            <line x1="15" y1="60" x2="30" y2="60" />
+                            <line x1="30" y1="25" x2="40" y2="35" />
+                        </g>
+
+                        <!-- Bulb -->
+                        <path d="M70 30
+           C48 30 35 45 35 60
+           C35 75 50 83 55 90
+           C58 94 58 100 58 104
+           L82 104
+           C82 100 82 94 85 90
+           C90 83 105 75 105 60
+           C105 45 92 30 70 30Z" fill="url(#bulbGradient)" />
+
+                        <!-- Base -->
+                        <rect x="60" y="104" width="20" height="14" rx="4" fill="#6B7280" />
+                        <rect x="58" y="118" width="24" height="6" rx="3" fill="#4B5563" />
+
+                        <!-- Inner Shine -->
+                        <path d="M55 58 C55 45 65 38 72 36" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"
+                            opacity="0.4" />
+
+                        <!-- Gradients -->
+                        <defs>
+                            <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                                gradientTransform="translate(70 60) rotate(90) scale(45)">
+                                <stop offset="0%" stop-color="" />
+                                <stop offset="100%" stop-color="" stop-opacity="0" />
+                            </radialGradient>
+
+                            <linearGradient id="bulbGradient" x1="35" y1="30" x2="105" y2="104"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="0%" stop-color="#86EFAC" />
+                                <stop offset="100%" stop-color="#16A34A" />
+                            </linearGradient>
+                        </defs>
+
+                    </svg>
+                    Gerador de conselhos
+                </h1>
+
+                <button id="btnGeraConselho">Gerar Conselho</button>
+                <div class="cxConselho">
+                    <p id="paragrafoConselho">Aguardando...</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
