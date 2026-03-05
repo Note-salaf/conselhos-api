@@ -2,7 +2,7 @@
 
 Aplicação web simples que consome a API pública Advice Slip JSON API para exibir conselhos aleatórios na tela ao clicar em um botão.
 
-Demo: 
+Demo: https://note-salaf.github.io/conselhos-api/
 
 O projeto foi desenvolvido utilizando HTML, CSS e JavaScript puro, com foco em:
 Modularização de código
@@ -85,4 +85,5 @@ Loading indicator
 Animação ao trocar conselho
 Modo escuro
 Copiar conselho para clipboard
+
 Internacionalização
